@@ -29,10 +29,11 @@ outfit "Korath Ionizer"
 		"hit force" 80
 		"shield damage" 320
 		"hull damage" 240
-		"disruption damage" 70
-		"ion damage" 10
-		"blast radius" 20
-	description "Despite its name, this production model of a recently designed hack job between the classic detainer, newly acquired disruptors, and some raided parts was made to deliver shield disrupting packets at long range. The ionization effect it's named after seems to be a loss byproduct of the conversion process."
+		"disruption damage" 60
+		"ion damage" 4
+		"slowing damage" 30
+		"blast radius" 30
+	description "Despite its name, this production model of a recently designed hack job between the classic detainer, newly acquired disruptors, and some raided parts was made to deliver shield disrupting packets at long range, at the cost of some of its slowing power. The ionization effect this weapon is mockingly named after seems to be a loss byproduct of the conversion process, but also increases it's disperal radius."
 
 effect "Ionizer sparks"
 	sprite "effect/Ionizer Sparks"
@@ -43,51 +44,17 @@ effect "Ionizer sparks"
 	"random velocity" .1
 	"velocity scale" .5
 
-outfit "Spinal Korath Detainer"
+outfit "Korath Neutralizer"
 	category "Guns"
-	cost 1340000
-	thumbnail "outfit/detainer"
+	cost 2067500
+	thumbnail "outfit/Neutralizer"
 	"mass" 76
-	"outfit space" -76
-	"weapon capacity" -76
-	"energy capacity" 1600
+	"outfit space" -54
+	"weapon capacity" -54
+	"energy capacity" 1850
 	"gun ports" -1
 	"spinal mount" -1
-	weapon
-		sprite "projectile/detainer"
-			"frame rate" 2.5
-		sound "detainer"
-		"hit effect" "detainer impact" 3
-		"hit effect" "detainer smoke" 5
-		"live effect" "detainer sparks" 50
-		"inaccuracy" .5
-		"velocity" 14
-		"lifetime" 140
-		"reload" 60
-		"burst reload" 10
-		"burst count" 2
-		"hardpoint sprite" "hardpoint/gun/detainer"
-		"firing energy" 756
-		"firing force" 40
-		"firing heat" 400
-		"hit force" 80
-		"shield damage" 320
-		"hull damage" 240
-		"slowing damage" 40
-		"blast radius" 20
-	description "Although not the most damaging weapon of its size, the Korath Detainer is feared for two reasons: its exceptionally long range, and its ability to interfere with the propulsion systems of any ship it strikes."
-
-
-outfit "Spinal Korath Ionizer"
-	category "Guns"
-	cost 1340000
-	thumbnail "outfit/Ionizer"
-	"mass" 76
-	"outfit space" -76
-	"weapon capacity" -76
-	"energy capacity" 1600
-	"gun ports" -1
-	"spinal mount" -1
+	"phasing"
 	weapon
 		sprite "projectile/IonizerBolt"
 			"frame rate" 2.5
@@ -95,25 +62,24 @@ outfit "Spinal Korath Ionizer"
 		"hit effect" "detainer impact" 3
 		"hit effect" "Ionizer sparks" 5
 		"live effect" "Ionizer sparks" 1
-		"inaccuracy" .5
-		"velocity" 14
-		"lifetime" 140
-		"reload" 60
-		"burst reload" 10
-		"burst count" 2
-		"cluster"
+		"inaccuracy" .1
+		"velocity" 100
+		"lifetime" 44
+		"reload" 30
+		"burst reload" 5
+		"burst count" 4
 		"hardpoint sprite" "hardpoint/gun/detainer"
 		"hardpoint offset" 22
-		"firing energy" 756
-		"firing force" 40
-		"firing heat" 400
-		"hit force" 80
-		"shield damage" 320
-		"hull damage" 240
-		"disruption damage" 70
-		"ion damage" 10
-		"blast radius" 20
-	description "Despite its name, this production model of a recently designed hack job between the classic detainer, newly acquired disruptors, and some raided parts was made to deliver shield disrupting packets at long range. The ionization effect its named after seems to be a loss byproduct of the conversion process."
+		"firing energy" 228
+		"firing force" 5
+		"firing heat" 332
+		"hit force" 35
+		"shield damage" 165
+		"hull damage" 95
+		"disruption damage" 90
+		"ion damage" 3
+		"slowing damage" 45
+	description "A more refined version of the Inionizer, meant to be utilized on the new deployable high precision weapon platforms based off the Far Osk automata fighter. It sacrifices basic damage and area of effect for a faster attack cycle with increased engine and shield itnerference at even further ranges."
 
 outfit "Plasma Artillery"
 	category "Secondary Weapons"
@@ -203,11 +169,9 @@ outfit "Korath Warder-S"
 outfitter "korath plugins"
 	"Plasma Artillery"
 	"Korath Ionizer"
-	"Spinal Korath Detainer"
-	"Spinal Korath Ionizer"
+	"Korath Neutralizer"
 
 outfitter "Basic Outfits"
 	"Plasma Artillery"
 	"Korath Ionizer"
-	"Spinal Korath Detainer"
-	"Spinal Korath Ionizer"
+	"Korath Neutralizer"
