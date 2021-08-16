@@ -65,21 +65,21 @@ outfit "Korath Neutralizer"
 		"inaccuracy" .1
 		"velocity" 100
 		"lifetime" 44
-		"reload" 30
+		"reload" 28
 		"burst reload" 5
-		"burst count" 4
+		"burst count" 3
 		"hardpoint sprite" "hardpoint/gun/detainer"
 		"hardpoint offset" 22
 		"firing energy" 228
 		"firing force" 5
 		"firing heat" 332
 		"hit force" 35
-		"shield damage" 165
-		"hull damage" 95
-		"disruption damage" 90
-		"ion damage" 3
-		"slowing damage" 45
-	description "A more refined version of the Inionizer, meant to be utilized on the new deployable high precision weapon platforms based off the Far Osk automata fighter. It sacrifices basic damage and area of effect for a faster attack cycle with increased engine and shield itnerference at even further ranges."
+		"shield damage" 145
+		"hull damage" 100
+		"disruption damage" 70
+		"ion damage" 5
+		"slowing damage" 35
+	description "A more refined version of the Inionizer, meant to be utilized on the new deployable high precision weapon platforms based off the Far Osk automata fighter. It sacrifices power per hit and area of effect for a much faster attack cycle and slightly stronger interference with shields and engines, at even further ranges."
 
 outfit "Plasma Artillery"
 	category "Secondary Weapons"
