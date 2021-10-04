@@ -11,3 +11,5 @@ Ionizer is answer to Wanderer HWs and Remnant kiters, providing ranged disruptio
 From there, a split is introduced with one group working on the KIV 750 artillery platform and it's giant spinal mount weapon, and the other working on deployable artillery with the above spinal versions of the FO. The 750 having a BIG AoE weapon is another part of why I think switching the fighters to precision weaponry might be better, especially if the Ionizer is working as a hybrid instead of an alternative.
 
 Eventually you're faced with a decision to strike against one of the reserach/production facilities, and in the ensuing retaliation and for a good while afterwards, the other line appears much often in fleets and events.
+
+https://vimeo.com/475090386
