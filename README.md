@@ -6,10 +6,10 @@ Start introduces Screener and Ionizer.
 
 Screener is answer to superior but slower AMs of both, especially coupled in fleets with the Firestorm torpedo introduced in KEE. It will very much rely on the redocking to reload behavior, though, and I'm gonna have to play around with the Piercer Pod stats in Revamp - it needs some serious tweaking/buffing to be worth using over normal piercers, even at it's smaller size.
 
-Ionizer is answer to Wanderer HWs and Remnant kiters, providing ranged disruption (by channeling disruptors through detainer rig) to stack onto beam combos (Digger needs a hard nerf though imo) or enhance various piercing weapons. Right now it fully trades slow damage for disruption and some ion "waste" (which is where the name comes from), but I'm seriously considering giving it both disruption and slow at about 75%.
+Energzier is answer to Wanderer HWs and Remnant kiters, providing ranged disruption (by channeling disruptors through detainer rig) to stack onto beam combos or enhance various piercing weapons. It is slightly heavier, does negative energy and ion damage, and less slow than normal detainer, but has longer range and larger AoE.
 
-From there, a split is introduced with one group working on the KIV 750 artillery platform and it's giant spinal mount weapon, and the other working on deployable artillery with the above spinal versions of the FO. The 750 having a BIG AoE weapon is another part of why I think switching the fighters to precision weaponry might be better, especially if the Ionizer is working as a hybrid instead of an alternative.
+From there, a split is introduced with one group working on the KIV 750 artillery platform and it's giant spinal mount weapon, and the other working on deployable artillery with the above spinal versions of the FO.
 
-Eventually you're faced with a decision to strike against one of the reserach/production facilities, and in the ensuing retaliation and for a good while afterwards, the other line appears much often in fleets and events.
+Eventually you're faced with a decision to strike against one of the reserach/production facilities, and in the ensuing retaliation and for a good while afterwards, the other line appears much more often in fleets and events.
 
 https://vimeo.com/475090386
