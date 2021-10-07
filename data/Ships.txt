@@ -16,7 +16,7 @@ ship "Kar Ik Vot 750"
 		"spinal mount" 1
 		"heat dissipation" 0.5
 		hull 77500
-		"outfit space" 2050
+		"outfit space" 2125
 		ramscoop 3
 		"reverse thrust" 153.4
 		"reverse thrusting energy" 15.8
@@ -33,12 +33,11 @@ ship "Kar Ik Vot 750"
 		"steering flare sound" "plasma huge"
 			"turning heat" 26.7
 		"turret mounts" 8
-		"weapon capacity" 1025
+		"weapon capacity" 1100
 	outfits
 		"Command Center"
 		Hyperdrive
-		"Korath Detainer" 4
-		"Korath Ionizer" 4
+		"Korath Energizer" 8
 		"Korath Warder-S" 8
 		"Large Heat Shunt" 9
 		"Plasma Artillery"
@@ -49,7 +48,7 @@ ship "Kar Ik Vot 750"
 	crew 1
 	shields 70000
 	hull 77500
-	engine 1.5 260
+	engine 0 260
 		zoom 0.6
 		angle 0
 		under
@@ -193,21 +192,21 @@ ship "Kar Ik Vot 750"
 		angle -49.998779
 		over
 		left
-	gun -25 -230 "Korath Detainer"
+	gun -25 -230 "Korath Energizer"
 		parallel
-	gun 0 -230 "Korath Detainer"
+	gun 0 -230 "Korath Energizer"
 		parallel
-	gun 25 -230 "Korath Detainer"
+	gun 25 -230 "Korath Energizer"
 		parallel
-	gun 0 -230 "Korath Detainer"
+	gun 0 -230 "Korath Energizer"
 		parallel
-	gun -82 45 "Korath Ionizer"
+	gun -82 45 "Korath Energizer"
 		parallel
-	gun 0 45 "Korath Ionizer"
+	gun 0 45 "Korath Energizer"
 		parallel
-	gun 82 45 "Korath Ionizer"
+	gun 82 45 "Korath Energizer"
 		parallel
-	gun 0 45 "Korath Ionizer"
+	gun 0 45 "Korath Energizer"
 		parallel
 	gun 0 -120 "Plasma Artillery"
 		parallel

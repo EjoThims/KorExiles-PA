@@ -1,11 +1,11 @@
-outfit "Korath Ionizer"
+outfit "Korath Energizer"
 	category "Guns"
 	cost 1340000
 	thumbnail "outfit/Ionizer"
 	"mass" 76
-	"outfit space" -76
-	"weapon capacity" -76
-	"energy capacity" 1600
+	"outfit space" -85
+	"weapon capacity" -85
+	"energy capacity" 1700
 	"gun ports" -1
 	weapon
 		sprite "projectile/IonizerBolt"
@@ -15,8 +15,8 @@ outfit "Korath Ionizer"
 		"hit effect" "Ionizer sparks" 5
 		"live effect" "Ionizer sparks" 1
 		"inaccuracy" .5
-		"velocity" 14
-		"lifetime" 140
+		"velocity" 16
+		"lifetime" 145
 		"reload" 60
 		"burst reload" 10
 		"burst count" 2
@@ -24,23 +24,24 @@ outfit "Korath Ionizer"
 		"hardpoint sprite" "hardpoint/gun/detainer"
 		"hardpoint offset" 22
 		"firing energy" 756
-		"firing force" 40
+		"firing force" 20
 		"firing heat" 400
-		"hit force" 80
+		"hit force" 30
 		"shield damage" 320
 		"hull damage" 240
 		"disruption damage" 60
-		"ion damage" 4
+		"energy damage" -400
+		"ion damage"-2
 		"slowing damage" 30
 		"blast radius" 30
-	description "Despite its name, this production model of a recently designed hack job between the classic detainer, newly acquired disruptors, and some raided parts was made to deliver shield disrupting packets at long range, at the cost of some of its slowing power. The ionization effect this weapon is mockingly named after seems to be a loss byproduct of the conversion process, but also increases it's disperal radius."
+	description "Despite its name, this production model of a recently designed hack job between the classic detainer, newly acquired disruptors, and some raided parts was made to cause shield disruption alongside the traditional slowing effects. The energizing effect this weapon is mockingly named after seems to be a loss byproduct of the conversion process, but is far outweighed by the other benefits of the weapon's modifications, including a larger area of effect and slightly extended range."
 
 effect "Ionizer sparks"
 	sprite "effect/Ionizer Sparks"
 		"no repeat"
 		"frame rate" 10
 	"lifetime" 37
-	"random spin" 2
+	"random spin" 1
 	"random velocity" .1
 	"velocity scale" .5
 
@@ -63,8 +64,8 @@ outfit "Korath Neutralizer"
 		"hit effect" "Ionizer sparks" 5
 		"live effect" "Ionizer sparks" 1
 		"inaccuracy" .1
-		"velocity" 100
-		"lifetime" 44
+		"velocity" 104
+		"lifetime" 48
 		"reload" 28
 		"burst reload" 5
 		"burst count" 3
@@ -73,13 +74,13 @@ outfit "Korath Neutralizer"
 		"firing energy" 228
 		"firing force" 5
 		"firing heat" 332
-		"hit force" 35
+		"hit force" 12
 		"shield damage" 145
 		"hull damage" 100
 		"disruption damage" 70
-		"ion damage" 5
+		"energy damage" -50
 		"slowing damage" 35
-	description "A more refined version of the Inionizer, meant to be utilized on the new deployable high precision weapon platforms based off the Far Osk automata fighter. It sacrifices power per hit and area of effect for a much faster attack cycle and slightly stronger interference with shields and engines, at even further ranges."
+	description "A more refined version of the Energizer, meant to be utilized on the new deployable high precision weapon platforms based off the Far Osk automata fighter. It sacrifices power per hit and area of effect for a much faster attack cycle and slightly stronger interference with shields and engines, at even further ranges."
 
 outfit "Plasma Artillery"
 	category "Secondary Weapons"
@@ -100,8 +101,8 @@ outfit "Plasma Artillery"
 		"lifetime" 1
 		"reload" 200
 		"firing energy" 8000
-		"firing heat" 60000
-		"firing force" 250
+		"firing heat" 52000
+		"firing force" 150
 	description "Essentially a TPC stretched out into a firing rig, this 'defensive' artillery weapon fires a ball of plasma that quickly spreads into a devastating wave. Alone, it has little impact on shields, but the sheer heat and impact force it transmits can melt and buckle hull plating anyway, and even carry away smaller ships."
 
 outfit "Large Plasma Packet"
@@ -118,12 +119,12 @@ outfit "Large Plasma Packet"
 		"drag" .25
 		"shield damage" 240
 		"hull damage" 400
-		"corrosion damage" 20
+		"corrosion damage" 5
 		"piercing" 0.6
-		"blast radius" 100
-		"heat damage" 1600
-		"burn damage" 80
-		"hit force" 340
+		"blast radius" 80
+		"heat damage" 1200
+		"burn damage" 8
+		"hit force" 300
 
 outfit "Plasma Packet"
 	weapon
@@ -139,12 +140,12 @@ outfit "Plasma Packet"
 		"drag" .5
 		"shield damage" 100
 		"hull damage" 200
-		"corrosion damage" 5
+		"corrosion damage" 2
 		"piercing" 0.4
 		"blast radius" 50
-		"heat damage" 600
-		"burn damage" 20
-		"hit force" 180
+		"heat damage" 350
+		"burn damage" 3
+		"hit force" 80
 
 
 outfit "Korath Warder-S"
