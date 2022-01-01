@@ -1,19 +1,19 @@
 outfit "Korath Energizer"
 	category "Guns"
 	cost 1340000
-	thumbnail "outfit/Ionizer"
+	thumbnail "outfit/Energizer"
 	"mass" 76
 	"outfit space" -85
 	"weapon capacity" -85
 	"energy capacity" 1700
 	"gun ports" -1
 	weapon
-		sprite "projectile/IonizerBolt"
+		sprite "projectile/energizerbolt"
 			"frame rate" 2.5
 		sound "detainer"
-		"hit effect" "detainer impact" 3
-		"hit effect" "Ionizer sparks" 5
-		"live effect" "Ionizer sparks" 1
+		"hit effect" "energizer impact" 3
+		"hit effect" "detainer smoke" 5
+		"live effect" "energizer sparks" 30
 		"inaccuracy" .5
 		"velocity" 16
 		"lifetime" 145
@@ -36,14 +36,23 @@ outfit "Korath Energizer"
 		"blast radius" 30
 	description "Despite its name, this production model of a recently designed hack job between the classic detainer, newly acquired disruptors, and some raided parts was made to cause shield disruption alongside the traditional slowing effects. The energizing effect this weapon is mockingly named after seems to be a loss byproduct of the conversion process, but is far outweighed by the other benefits of the weapon's modifications, including a larger area of effect and slightly extended range."
 
-effect "Ionizer sparks"
-	sprite "effect/Ionizer Sparks"
+effect "energizer sparks"
+	sprite "effect/energizersparks"
 		"no repeat"
-		"frame rate" 10
-	"lifetime" 37
-	"random spin" 1
+		"frame rate" 6
+	"lifetime" 26
+	"random spin" 2
 	"random velocity" .1
 	"velocity scale" .5
+
+effect "energizer impact"
+	sprite "effect/energizerimpact"
+		"no repeat"
+		"frame rate" 15
+	"lifetime" 26
+	"random spin" 10
+	"random velocity" .5
+	"velocity scale" -.01
 
 outfit "Korath Neutralizer"
 	category "Guns"
@@ -57,12 +66,12 @@ outfit "Korath Neutralizer"
 	"spinal mount" -1
 	"phasing"
 	weapon
-		sprite "projectile/IonizerBolt"
+		sprite "projectile/energizerbolt"
 			"frame rate" 2.5
 		sound "detainer"
-		"hit effect" "detainer impact" 3
-		"hit effect" "Ionizer sparks" 5
-		"live effect" "Ionizer sparks" 1
+		"hit effect" "energizer impact" 1
+		"hit effect" "detainer smoke" 3
+		"live effect" "energizer sparks" 10
 		"inaccuracy" .1
 		"velocity" 104
 		"lifetime" 48
