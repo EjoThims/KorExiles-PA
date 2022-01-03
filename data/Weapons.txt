@@ -30,8 +30,8 @@ outfit "Korath Energizer"
 		"shield damage" 320
 		"hull damage" 240
 		"disruption damage" 60
-		"energy damage" -400
-		"ion damage"-2
+		"energy damage" -600
+		"ion damage"-10
 		"slowing damage" 30
 		"blast radius" 30
 	description "Despite its name, this production model of a recently designed hack job between the classic detainer, newly acquired disruptors, and some raided parts was made to cause shield disruption alongside the traditional slowing effects. The energizing effect this weapon is mockingly named after seems to be a loss byproduct of the conversion process, but is far outweighed by the other benefits of the weapon's modifications, including a larger area of effect and slightly extended range."
