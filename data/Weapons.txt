@@ -126,13 +126,13 @@ outfit "Large Plasma Packet"
 		"lifetime" 70
 		"random lifetime" 5
 		"drag" .25
-		"shield damage" 240
-		"hull damage" 400
-		"corrosion damage" 5
+		"shield damage" 260
+		"hull damage" 420
+		"corrosion damage" 3
 		"piercing" 0.6
-		"blast radius" 80
-		"heat damage" 1200
-		"burn damage" 8
+		"blast radius" 85
+		"heat damage" 1100
+		"burn damage" 6
 		"hit force" 300
 
 outfit "Plasma Packet"
@@ -147,13 +147,13 @@ outfit "Plasma Packet"
 		"lifetime" 70
 		"random lifetime" 5
 		"drag" .5
-		"shield damage" 100
-		"hull damage" 200
-		"corrosion damage" 2
-		"piercing" 0.4
+		"shield damage" 110
+		"hull damage" 180
+		"corrosion damage" 1
+		"piercing" 0.3
 		"blast radius" 50
-		"heat damage" 350
-		"burn damage" 3
+		"heat damage" 300
+		"burn damage" 2
 		"hit force" 80
 
 
