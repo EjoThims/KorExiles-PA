@@ -115,57 +115,83 @@ outfit "Plasma Artillery"
 		sound "dragonflame" 
 		icon "icon/dragonflame"
 		"fire effect" "dragonflame plasma" 5
-		"submunition" "Large Plasma Packet" 45
-		"submunition" "Plasma Packet" 300
+		"submunition" "Large Plasma Packet" 20
+		"submunition" "Plasma Packet" 60
+		"submunition" "Small Plasma Packet" 240
 		"velocity" 50
 		"lifetime" 1
+		"range override" 5400
 		"reload" 200
 		"firing energy" 8000
 		"firing heat" 52000
-		"firing force" 150
+		"firing force" 200
 	description "Essentially a TPC stretched out into a firing rig, this 'defensive' artillery weapon fires a ball of plasma that quickly spreads into a devastating wave. Alone, it has little impact on shields, but the sheer heat and impact force it transmits can melt and buckle hull plating anyway, and even carry away smaller ships."
 
 outfit "Large Plasma Packet"
 	weapon
+		sprite "projectile/fireball"
+			"frame rate" 1
+			"rewind"
+		"hit effect" "medium explosion"
+		"inaccuracy" 3
+		"velocity" 10
+		"random velocity" 2.5
+		"lifetime" 90
+		"random lifetime" 5
+		"drag" .1
+		"shield damage" 330
+		"hull damage" 540
+		"corrosion damage" 4
+		"piercing" 0.6
+		"blast radius" 220
+		"trigger radius" 110
+		"heat damage" 760
+		"burn damage" 7
+		"hit force" 230
+
+outfit "Plasma Packet"
+	weapon
 		sprite "projectile/flamethrower"
 			"frame rate" 1
 			"no repeat"
-		"hit effect" "large explosion"
-		"inaccuracy" 5
+		"hit effect" "small explosion"
+		"inaccuracy" 8
 		"velocity" 10
 		"random velocity" 5
-		"lifetime" 70
-		"random lifetime" 5
-		"drag" .25
-		"shield damage" 260
-		"hull damage" 420
-		"corrosion damage" 3
-		"piercing" 0.6
-		"blast radius" 85
-		"heat damage" 1100
-		"burn damage" 6
-		"hit force" 300
+		"lifetime" 80
+		"random lifetime" 15
+		"drag" .2
+		"shield damage" 185
+		"hull damage" 310
+		"corrosion damage" 2
+		"piercing" 0.5
+		"blast radius" 140
+		"trigger radius" 70
+		"heat damage" 320
+		"burn damage" 4
+		"hit force" 90
 
-outfit "Plasma Packet"
+outfit "Small Plasma Packet"
 	weapon
 		sprite "projectile/torpedo"
 			"frame rate" 1
 			"no repeat"
 		"hit effect" "tiny explosion"
 		"inaccuracy" 15
-		"velocity" 1
-		"random velocity" 12.5
+		"velocity" 5
+		"random velocity" 10
 		"lifetime" 70
-		"random lifetime" 5
-		"drag" .5
-		"shield damage" 110
-		"hull damage" 180
+		"random lifetime" 25
+		"drag" .3
+		"shield damage" 90
+		"hull damage" 150
 		"corrosion damage" 1
-		"piercing" 0.3
-		"blast radius" 50
-		"heat damage" 300
+		"piercing" 0.4
+		"blast radius" 80
+		"trigger radius" 40
+		"heat damage" 145
 		"burn damage" 2
-		"hit force" 80
+		"hit force" 55
 
 
 outfit "Korath Warder-S"
