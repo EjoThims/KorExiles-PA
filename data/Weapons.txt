@@ -114,7 +114,7 @@ outfit "Plasma Artillery"
 	weapon
 		sound "dragonflame" 
 		icon "icon/dragonflame"
-		"fire effect" "dragonflame plasma" 5
+		"fire effect" "dragonflame plasma" 3
 		"submunition" "Large Plasma Packet" 20
 		"submunition" "Plasma Packet" 60
 		"submunition" "Small Plasma Packet" 240
@@ -124,13 +124,14 @@ outfit "Plasma Artillery"
 		"reload" 200
 		"firing energy" 8000
 		"firing heat" 52000
-		"firing force" 200
+		"firing force" 180
 	description "Essentially a TPC stretched out into a firing rig, this 'defensive' artillery weapon fires a ball of plasma that quickly spreads into a devastating wave. Alone, it has little impact on shields, but the sheer heat and impact force it transmits can melt and buckle hull plating anyway, and even carry away smaller ships."
 
 outfit "Large Plasma Packet"
 	weapon
 		sprite "projectile/fireball"
 			"frame rate" 1
+			"random start frame"
 			"rewind"
 		"hit effect" "medium explosion"
 		"inaccuracy" 3
